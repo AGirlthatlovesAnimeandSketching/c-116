@@ -1,0 +1,16 @@
+h3{
+    font-size: 25px;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+   animation-name:Fading;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes Fading{
+    from{box-shadow: 1px 1px 35px rgb(155, 115, 219);}
+    to {box-shadow: 1px 1px 35px rgb(58, 73, 139);}
+}
